@@ -1,0 +1,233 @@
+/* Global Styles
+=====================*/
+
+.container {
+	width: 95%;
+}
+
+body { background-color: white;}
+
+h3,
+h2,
+p {
+	font-family: 'Playfair Display', serif;
+}
+
+h3,
+h2 {
+	text-align: center;
+}
+
+.about-text {
+	text-align: left;
+}
+
+a {
+	padding: 5px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+/* Treehouse Plugin Styles
+===========================*/
+#badge-container {
+	width:100%; 
+	margin: 0 auto;
+	float: left;
+}
+
+#badges li { 
+	display: inline;
+	padding: 3px;
+}
+
+#badges li img {
+  	width: 15px; 
+}
+
+.badge-container h3 {
+	font-size: 10px;	
+	text-align:center; 	
+	font-family: inherit; 
+	font-weight: bold; 
+	-webkit-font-smoothing: antialiased;
+}
+
+#badges li img:hover {
+	opacity:.8;
+}
+
+/* Column/Row Styles
+======================*/
+
+/*Centering Columns/Rows*/
+	/*Rows*/
+	.row-centered {
+		text-align: center;
+	}
+	/*Columns*/
+	.col-centered {
+		display: inline-block;
+		float: none;
+		text-align: left;
+		margin-right: -4px;
+	}
+
+.lead {
+	font-style: italic;
+}
+
+.col-md-8 {
+	background-color: skyblue;
+}
+
+.col-md-4 {
+	background-color: tomato;
+}
+
+/* Header Styles
+=======================*/
+
+h1 {
+	text-align: center;
+	font-family: '20_dbregular';
+}
+
+.epic {
+	color: royalblue;
+}
+
+.demo {
+	color: skyblue;
+}
+.rep {
+	color: tomato;
+}
+
+/* Navigation 
+=======================*/
+
+.btn-default {
+	margin: 5px;
+	display: block;
+	width: 100%;
+}
+
+/* Images and Backgrounds
+=======================*/
+
+/*Home Page Picture*/
+.me {
+	max-height: 300px;
+	max-width: 300px;
+}
+.codecademy {
+	max-width: 50px;
+	max-height: 50px;
+	margin: 5px auto;
+}
+
+
+/*Backgrounds*/
+.paper-background { background: url("../Img/paper.png");}
+
+
+
+/* Responsive Styles
+======================*/ 
+
+@media screen and (min-width: 768px) {
+
+	/* Global Styles 
+	===============================*/
+
+	p {
+		font-size: 22px;
+	}
+
+	h2 {
+		text-align: left;
+		font-weight: bold;
+	}
+
+	/* Column/Row Styles
+	======================*/
+
+	/*Rows*/
+	.row-centered {
+		text-align: center;
+	}
+	/*Columns*/
+	.col-centered {
+		display: inline-block;
+		float: none;
+		text-align: left;	
+	}
+
+	.left {
+		float: left;
+		width: 80%;
+	}
+
+	.right {
+		float: right;
+		width: 20%;
+	}
+	/* Navigation
+	===============================*/
+
+	.btn-default {
+		margin: initial;
+		display: initial;
+		width: initial;
+	}
+
+	/* Images
+	==============================*/
+	.about-me,
+	.me {
+		float: right;
+		margin-right: 50px;
+		max-height: initial;
+		max-width: initial;
+		margin-top: -50px;
+	}
+
+	.about-me {
+		margin-top: 0;
+	}
+
+	.codecademy {
+		text-align: center;
+	}
+
+	/* Plugin CSS
+	===========================*/
+
+	#badge-container {
+		width:1000px; 
+		margin: 0 auto;
+		float: left;
+		text-align: left;
+	}
+
+	#badges li { 
+		display: inline;
+		padding: 0px;
+	}
+
+	#badges li img {
+	  width: 50px; 
+	}
+
+	.badge-container h3 {
+	  text-align:left; 
+	  font-family: inherit; 
+	  font-weight: bold; 
+	  -webkit-font-smoothing: antialiased;
+	}
+}
+

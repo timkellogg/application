@@ -1,0 +1,1 @@
+This is my first project for Epicodus. It is a fully functional, front-end of a site that demonstrates my knowledge of Bootstrap, basic JavaScript, html and css. 
